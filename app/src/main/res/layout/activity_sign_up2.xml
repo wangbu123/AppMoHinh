@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignUp2Activity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    >
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_fillter"
+        android:hint="Địa chỉ email"
+        android:padding="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_fillter"
+        android:hint="Họ và tên"
+        android:padding="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/ed_passwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_fillter"
+        android:hint="Mật khẩu"
+        android:padding="8dp"
+        />
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/ed_passwd2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_fillter"
+        android:hint="Xác nhận mật khẩu"
+        android:padding="8dp"
+        />
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/orange_btn_nav"
+        android:text="Hoàn tất"
+        />
+
+</LinearLayout>

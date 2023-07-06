@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_voucher"
+    android:layout_margin="5dp"
+    android:padding="8dp"
+    >
+    <ImageView
+        android:id="@+id/img_voucher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/voucher2"
+        />
+    <LinearLayout
+        android:id="@+id/linner_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/img_voucher"
+        >
+        <TextView
+            android:id="@+id/tv_nameVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mã giảm: 10%"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tv_timeVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thời hạn: 24-4-2023"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_quantityVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Còn: 20"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_receiveVoucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange_btn_nav"
+        android:text="Lấy"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/linner_main"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Chi tiết đơn hàng"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/tv_sumPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange_btn_nav"
+            android:text="150000 VNĐ"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/tv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bánh mì xúc xích"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên (*)"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại (*)"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/ed_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ giao hàng(*)"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/ed_address"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext"
+        />
+    <LinearLayout
+
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#ccc"
+            android:text="Hủy"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_Order"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/orange_btn_nav"
+            android:text="Đặt hàng"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>

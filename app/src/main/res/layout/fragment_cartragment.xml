@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.CartFragment"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+        android:id="@+id/layout_cardNull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/id_price"
+
+        >
+        <ImageView
+            android:id="@+id/img_trolley"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/trolley"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giỏ hàng trống"
+            android:textColor="@color/orange_btn_nav"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/img_trolley"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/id_price"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orange_btn_nav"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền:"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/tv_sumPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/orange_btn_nav"
+                android:layout_marginLeft="10dp"
+                />
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               >
+               <Button
+
+                   android:id="@+id/btn_Order"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Đặt ngay"
+                   android:backgroundTint="@color/orange_btn_nav"
+                   android:layout_alignParentEnd="true"
+                   android:layout_marginRight="10dp"
+
+                   />
+           </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
