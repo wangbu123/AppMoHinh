@@ -57,7 +57,7 @@
             android:name=".Activity.SearchProductActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.DetailTypeFoodActivity"
+            android:name=".Activity.DetailTypeActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.AddProductActivity"

@@ -5,8 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.VoucherActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn được chọn 1 mã"
+        android:textColor="#2196F3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recy_voucherUser"
+        android:layout_marginTop="35dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
     <RelativeLayout
@@ -25,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bạn không có mã giảm giá nào"
-            android:textColor="@color/orange_btn_nav"
+            android:textColor="#2196F3"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_below="@+id/img_trolley"

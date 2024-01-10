@@ -17,7 +17,7 @@
             android:id="@+id/img_Type"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/hotdog"
+            android:src="@drawable/gogeta"
             android:layout_gravity="center"
             />
 
@@ -25,7 +25,7 @@
             android:id="@+id/tv_nameType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Xôiiiiiiiiiiiiiiiiii"
+            android:text="Vegeta"
             android:textColor="@color/black"
             android:textSize="16dp"
             android:layout_marginTop="5dp"

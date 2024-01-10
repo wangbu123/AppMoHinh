@@ -20,8 +20,8 @@
         >
         <ImageView
             android:id="@+id/img_trolley"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/trolley"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Giỏ hàng trống"
-            android:textColor="@color/orange_btn_nav"
+            android:textColor="@color/red"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_below="@+id/img_trolley"
@@ -53,7 +53,7 @@
             android:layout_height="2dp"
             android:layout_margin="10dp"
             android:layout_marginTop="10dp"
-            android:background="@color/orange_btn_nav"
+            android:background="@color/black"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="@color/orange_btn_nav"
+                android:textColor="@color/black"
                 android:layout_marginLeft="10dp"
                 />
            <RelativeLayout
@@ -88,7 +88,7 @@
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Đặt ngay"
-                   android:backgroundTint="@color/orange_btn_nav"
+                   android:backgroundTint="#4CAF50"
                    android:layout_alignParentEnd="true"
                    android:layout_marginRight="10dp"
 

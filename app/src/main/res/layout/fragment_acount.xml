@@ -50,16 +50,16 @@
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange_btn_nav"
+            android:backgroundTint="#2196F3"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Thay đổi thông tin cá nhân"
+            android:text="Profile Dành cho admin"
             />
         <Button
             android:id="@+id/btn_goToListUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange_btn_nav"
+            android:backgroundTint="#2196F3"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:text="Danh sách người dùng"
@@ -68,7 +68,7 @@
             android:id="@+id/btn_historyBuy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/orange_btn_nav"
+            android:backgroundTint="#2196F3"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:text="Lịch sử mua hàng"
@@ -79,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:backgroundTint="@color/orange_btn_nav"
+            android:backgroundTint="@color/red"
             android:text="Đăng xuất" />
 
     </LinearLayout>

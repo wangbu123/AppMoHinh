@@ -15,7 +15,7 @@
             android:id="@+id/img_product"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/banner1"
+            android:src="@drawable/bannernew"
             />
         <LinearLayout
             android:layout_marginLeft="10dp"
@@ -27,7 +27,7 @@
                 android:id="@+id/tv_nameProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bánh mì xá xíu"
+                android:text="Songoku SS3"
                 android:textColor="@color/black"
                 android:textSize="22sp"
                 android:textStyle="bold"
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="20000 VND"
-                android:textColor="@color/orange_btn_nav"
+                android:textColor="@color/red"
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 />
@@ -51,7 +51,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:text="-"
-                    android:backgroundTint="@color/orange_btn_nav"
+                    android:backgroundTint="@color/gray"
                     />
                 <EditText
                     android:id="@+id/ed_quantity"
@@ -65,7 +65,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:text="+"
-                    android:backgroundTint="@color/orange_btn_nav"
+                    android:backgroundTint="@color/gray"
                     android:layout_marginLeft="10dp"
                     />
 
@@ -84,7 +84,7 @@
             android:id="@+id/btn_huy"
             android:layout_width="170dp"
             android:layout_height="60dp"
-            android:backgroundTint="#ccc"
+            android:backgroundTint="@color/red"
             android:text="Hủy"
             android:textColor="@color/black"
             />
@@ -93,7 +93,7 @@
             android:id="@+id/btn_OK"
             android:layout_width="170dp"
             android:layout_height="60dp"
-            android:backgroundTint="@color/orange_btn_nav"
+            android:backgroundTint="#4CAF50"
             android:text="Thêm"
             android:textColor="@color/black"
             />

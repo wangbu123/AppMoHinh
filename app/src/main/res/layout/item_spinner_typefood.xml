@@ -10,13 +10,13 @@
         android:id="@+id/img_avt"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/hotdog"
+        android:src="@drawable/natsu"
         />
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Xúc xích"
+        android:text="Natsu"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/black"

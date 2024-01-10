@@ -5,18 +5,13 @@ plugins {
 
 android {
     signingConfigs {
-        my_config {
-            storeFile file('C:\\Users\\Tung\\Desktop\\keystore_foodap.jks')
-            storePassword '123456'
-            keyAlias 'nguyenductung'
-            keyPassword '123456'
-        }
+
     }
-    namespace 'com.example.foodapp'
+    namespace 'com.example.appmohinh'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.foodapp"
+        applicationId "com.example.appmohinh"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -29,7 +24,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.my_config
         }
     }
     compileOptions {

@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Activity.AddTypeActivity"
     android:orientation="vertical"
     >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thêm loại món mới"
+        android:text="Thêm Mô Hình Mới"
         android:gravity="center"
         android:textSize="25dp"
         android:textColor="@color/black"
-        android:background="@color/orange_btn_nav"
+        android:background="#2196F3"
         />
     <ImageView
         android:id="@+id/img_type"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:src="@drawable/camera"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
@@ -36,8 +37,8 @@
         android:id="@+id/btn_addType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thêm mới"
-        android:backgroundTint="@color/orange_btn_nav"
+        android:text="Add"
+        android:backgroundTint="#2196F3"
         android:layout_margin="10dp"
         />
 

@@ -7,25 +7,57 @@
     tools:context=".Activity.LogInActivity"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/loginbg"
     android:layout_margin="8dp"
     >
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Đăng Nhập"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"/>
 
     <EditText
         android:id="@+id/ed_sdt"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/custom_fillter"
-        android:hint="Số điện thoại"
-        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/ic_baseline_account_circle"
+        android:drawablePadding="15dp"
+        android:elevation="3dp"
+        android:hint="email"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
+        app:layout_constraintWidth_percent="0.8"
+
         />
     <EditText
-        android:layout_marginTop="12dp"
         android:id="@+id/ed_passwd"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/custom_fillter"
-        android:hint="Mật khẩu"
-        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="15dp"
+        android:elevation="3dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintWidth_percent="0.8"
         />
 
     <RelativeLayout
@@ -33,14 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
        >
-        <TextView
-            android:id="@+id/title1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bạn chưa có tài khoản ?"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            />
+
         <TextView
             android:id="@+id/tv_signUp"
             android:layout_width="wrap_content"
@@ -50,17 +75,37 @@
             android:layout_marginLeft="10dp"
             android:textSize="18dp"
             android:textStyle="italic"
-            android:textColor="@color/orange_btn_nav"
+            android:textColor="#00BCD4"
 
             />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Bạn chưa có tài khoản ?"
+            android:textSize="18dp"
+            android:textStyle="bold" />
     </RelativeLayout>
+
     <Button
         android:id="@+id/btn_login"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
+        android:backgroundTint="@color/teal_200"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/orange_btn_nav"
-        android:text="Đăng nhập"
+        android:layout_marginTop="70dp"
+        android:onClick="signin"
+        android:padding="15dp"
+        android:text="Đăng Nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_passwd"
+        app:layout_constraintWidth_percent="0.4"
         />
 
 </LinearLayout>

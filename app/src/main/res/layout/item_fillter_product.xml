@@ -9,7 +9,7 @@
         android:id="@+id/tv_name_fillter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Xôi xá xíu"
+        android:text="Tanjiro"
         android:layout_marginLeft="20dp"
         android:textSize="18sp"
         android:textColor="@color/black"

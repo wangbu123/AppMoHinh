@@ -30,7 +30,7 @@
                 android:id="@+id/tv_nameUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nguyễn Đức Tùng"
+                android:text="Trần Minh Quang"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="ntung6904@gmail.com"
+                android:text="haoquang969@gmail.com"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 

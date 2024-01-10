@@ -41,14 +41,16 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginLeft="20dp"
-               android:text="Mã giảm: "
+               android:text="% giảm: "
                android:textSize="20sp"
+
                android:textColor="@color/black"
                />
            <EditText
+               android:inputType="number"
                android:layout_marginLeft="10dp"
                android:id="@+id/ed_nameVoucher"
-               android:hint="Nhập giá giảm"
+               android:hint=" Giá giảm"
                android:layout_width="match_parent"
                android:layout_height="wrap_content" />
        </LinearLayout>
@@ -98,7 +100,7 @@
         android:id="@+id/btn_addVoucher"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/orange_btn_nav"
+        android:backgroundTint="#2196F3"
         android:text="Thêm"
         android:layout_margin="20dp"
 
